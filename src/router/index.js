@@ -38,10 +38,6 @@ const routes = [
     path: '/user',
     component: () => import(/* webpackChunkName:"User" */ '@/views/User')
   }
-  // {
-  //   path: '/profile',
-  //   component: () => import(/* webpackChunkName:"Profile" */ '@/views/Profile')
-  // }
 ]
 
 const router = new VueRouter({
